@@ -552,7 +552,7 @@ class AdminLiteSpeedCacheConfigController extends ModuleAdminController
             ['id' => 1, 'name' => $this->l('Yes') . $s . $this->l('Each group has its own view')],
             ['id' => 2, 'name' => $this->l('Two views') . $s .
                 $this->l('One for all logged-in users and another for logged-out users'), ],
-            ['id' => 3, 'name' => $this->l('Not cache logged-in') . $s .
+            ['id' => 3, 'name' => $this->l('Do Not cache logged-in') . $s .
             $this->l('No cache for logged-in users'), ],
 
         ];
